@@ -4,8 +4,8 @@ export const revalidate = 1; // 极速更新数据
 
 export async function GET() {
   // 请输入你之前获取的 Notion Token 和新建的 v3 表格 ID
-  const NOTION_TOKEN = "这里请填入你的 Notion Token"; 
-  const DATABASE_ID = "这里请填入你的 Signage_Schedule_v3 表格 ID";
+  const NOTION_TOKEN = "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"; 
+  const DATABASE_ID = "37045961808280f1945adb22e99baa17";
 
   try {
     const response = await fetch(`https://api.notion.com/v1/databases/${DATABASE_ID}/query`, {
